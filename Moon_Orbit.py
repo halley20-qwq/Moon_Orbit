@@ -5,9 +5,6 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import platform
 
-# ==========================================
-# --- 核心修复：跨平台中文字体设置 ---
-# ==========================================
 def configure_chinese_font():
     """
     尝试自动配置跨平台的中文字体显示。
